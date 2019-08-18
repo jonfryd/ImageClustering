@@ -11,7 +11,7 @@ by using classic image feature extraction techniques along with a [self-organizi
 A couple of features which be useful such as multi-threaded processing and distributing work over the network
 to different nodes. It also comes with a basic Swing UI:
 
-![ImageClustering Swing UI](ui.jpg?raw=true)
+<img src="ui.jpg" alt="ImageClustering Swing UI" width="1172"/>
 
 # Building
 
