@@ -11,7 +11,7 @@ based on the actual content. The pipeline starts with image feature extraction t
 The code comes with a couple of nifty features such as multi-threaded processing and distributing work over the network
 to different nodes. Also, it has a basic Swing UI:
 
-<img src="ui3.jpg" alt="ImageClustering Swing UI" width="672" height="392"/>
+<img src="ui3.png" alt="ImageClustering Swing UI" width="672" height="392"/>
 
 # Building
 
