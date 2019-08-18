@@ -6,7 +6,8 @@
 This is a hobby project that I did back in 2008 based on JAI (Java Advanced Imaging API).
 
 It purpose is to take a directory of randomly named image files (e.g. JPEG or PNG) and bring order to chaos
-by using classic image feature extraction techniques along with a [self-organizing map for clustering](http://somlib.gforge.inria.fr/).
+by using a pipeline starting with image feature extraction techniques, then calculate dissimilarity between those features and
+finally perform classification using a [self-organizing map for clustering](http://somlib.gforge.inria.fr/).
 
 A couple of features which be useful such as multi-threaded processing and distributing work over the network
 to different nodes. It also comes with a basic Swing UI:
