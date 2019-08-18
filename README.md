@@ -9,8 +9,8 @@ It purpose is to take a directory of randomly named image files (e.g. JPEG or PN
 by using a pipeline starting with image feature extraction techniques, then calculate dissimilarity between those features and
 finally perform classification using a [self-organizing map for clustering](http://somlib.gforge.inria.fr/).
 
-A couple of features which be useful such as multi-threaded processing and distributing work over the network
-to different nodes. It also comes with a basic Swing UI:
+The code comes with a couple of nifty features such as multi-threaded processing and distributing work over the network
+to different nodes. Also, it has a basic Swing UI:
 
 <img src="ui.jpg" alt="ImageClustering Swing UI" width="586" height="310"/>
 
