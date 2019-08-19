@@ -11,7 +11,7 @@ texture histograms, edge histograms, etc.), then calculate dissimilarity between
 classification using a fast implementation of a self-organizing map for clustering based on [research done at Inria](http://somlib.gforge.inria.fr/).
 
 The code comes with a couple of nifty features such as multi-threaded processing and distributing work over the network
-to different nodes. Also, it has a basic Swing UI:
+to different nodes. Also, it has a crude Swing UI:
 
 <img src="ui4.png" alt="ImageClustering Swing UI" width="694" height="422"/>
 
