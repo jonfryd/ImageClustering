@@ -49,7 +49,7 @@ This is for Linux or Mac OS X. For Windows run .bat-file:
     $ runImageClustering.bat
 
 When the UI is launched, select the directory, enter the expected number of clusters and press 'Process'.
-Images are then analyzed and renamed with a ```C###_-prefix denoting the cluster each image belongs to.
+Images are then analyzed and renamed with a `C###_`-prefix denoting the cluster each image belongs to.
 
 Happy renaming.
 
