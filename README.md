@@ -17,12 +17,12 @@ to different nodes. Also, it has a basic Swing UI:
 
 # Example
 
-Here are 9 images named in sequence (image1.jpg, image2.jpg, ..., image9.jpg) and can obviously be grouped into four
-clusters (of 2, 2, 2 and 3 images, respectively):
+Here are 9 images named in sequence (```image1.jpg```, ```image2.jpg```, ..., ```image9.jpg```):
 
 <img src="before.jpg" alt="Before clustering" width="642" height="696"/>
 
-After processing the directory the files have been renamed like this:
+Obviously they can be grouped into four clusters of 2, 2, 2 and 3 images, respectively. After processing the directory
+the files are renamed as follows:
 
 <img src="after.jpg" alt="After clustering" width="642" height="696"/>
 
