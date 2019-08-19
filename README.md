@@ -6,12 +6,27 @@
 This is a hobby project that I did back in 2008 based on JAI (Java Advanced Imaging API).
 
 Its purpose is to take a directory of image files (e.g. JPEG or PNG) with any name and bring order to chaos
-based on the actual content. The pipeline starts with image feature extraction techniques, then calculate dissimilarity between those features and finally perform classification using a [self-organizing map for clustering](http://somlib.gforge.inria.fr/).
+based on the actual content. The pipeline starts with image feature extraction techniques (DCT perceptual hash,
+texture histograms, edge histograms, etc.), then calculate dissimilarity between those features and finally perform
+classification using a [self-organizing map for clustering](http://somlib.gforge.inria.fr/).
 
 The code comes with a couple of nifty features such as multi-threaded processing and distributing work over the network
 to different nodes. Also, it has a basic Swing UI:
 
-<img src="ui3.png" alt="ImageClustering Swing UI" width="672" height="392"/>
+<img src="ui4.png" alt="ImageClustering Swing UI" width="694" height="422"/>
+
+# Example
+
+Here are 9 images named in sequence (image1.jpg, image2.jpg, ..., image9.jpg) and can obviously be grouped into four
+clusters (of 2, 2, 2 and 3 images, respectively):
+
+<img src="before.jpg" alt="Before clustering" width="642" height="696"/>
+
+After processing the directory the files have been renamed like this:
+
+<img src="after.jpg" alt="After clustering" width="642" height="696"/>
+
+... Voila!
 
 # Building
 
