@@ -15,6 +15,8 @@ to different nodes. Also, it has a basic Swing UI:
 
 <img src="ui4.png" alt="ImageClustering Swing UI" width="694" height="422"/>
 
+Radius is a hyper-parameter that controls the size of each cluster. The default value is fine for the most part.
+
 # Example
 
 Here are 9 images named in sequence (```image1.jpg```, ```image2.jpg```, ..., ```image9.jpg```):
