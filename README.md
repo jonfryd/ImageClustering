@@ -3,10 +3,10 @@
 
 # ImageClustering: Content-Based Image File Renaming Tool
 
-This is a hobby project I did back in 2008-2009 based on JAI (Java Advanced Imaging API).
+This is a hobby project I did back in 2008-2009 based on Java Advanced Imaging API.
 
-Its purpose is to take a directory of image files (e.g. JPEG or PNG) with any name and bring order to chaos
-based on the actual content. The pipeline starts with image feature extraction techniques (DCT perceptual hash,
+Its purpose is to take a directory of image files with any name and bring order to chaos
+based on pattern recognition of the actual contents. The pipeline starts with image feature extraction techniques (DCT perceptual hash,
 texture histograms, edge histograms, etc.), then calculate dissimilarity between those features and finally perform
 classification using a fast implementation of a self-organizing map for clustering based on [research done at Inria](http://somlib.gforge.inria.fr/).
 
