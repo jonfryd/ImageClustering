@@ -8,7 +8,7 @@ This is a hobby project that I did back in 2008-2009 based on JAI (Java Advanced
 Its purpose is to take a directory of image files (e.g. JPEG or PNG) with any name and bring order to chaos
 based on the actual content. The pipeline starts with image feature extraction techniques (DCT perceptual hash,
 texture histograms, edge histograms, etc.), then calculate dissimilarity between those features and finally perform
-classification using a [self-organizing map for clustering](http://somlib.gforge.inria.fr/).
+classification using a fast implementation of a self-organizing map for clustering based on [research done at Inria](http://somlib.gforge.inria.fr/).
 
 The code comes with a couple of nifty features such as multi-threaded processing and distributing work over the network
 to different nodes. Also, it has a basic Swing UI:
