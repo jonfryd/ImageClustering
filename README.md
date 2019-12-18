@@ -36,7 +36,8 @@ Clone the repository and execute Maven from the root directory:
 
     $ git clone https://github.com/jonfryd/ImageClustering
     $ cd ImageClustering/
-    $ mvn clean install
+    $ mvn clean
+    $ mvn install
 
 # Usage
 
